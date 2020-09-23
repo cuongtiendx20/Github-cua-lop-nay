@@ -1,0 +1,166 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Montserrat;
+}
+.wrapper{
+	width: 1920px;
+	height: 4943px;
+	background: blue;
+	margin: 0 auto;
+	position: relative;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header{
+	width: 1920px;
+	height: 155px;
+/*	background: #12DDE7;*/
+	position: absolute;
+	z-index: 10;
+}
+.logo{
+	width: 70px;
+	height: 155px;
+/*	background: #05198B;*/
+	float: left;
+}
+.img-logo{
+	width: 60px;
+	height: 60px;
+	background: black;
+	border-radius: 50%;
+	margin-top: 60px;
+	margin-left: 3px;
+}
+.img-logo img{
+	margin-left: 16px;
+	margin-top: 16px;
+}
+.menu{
+	width: 1100px;
+	height: 155px;
+/*	background: #129632;*/
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+	margin-top: 63px;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 45px;
+}
+.menu ul li a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu ul li a:hover{
+	color: rgba(0,0,0);
+}
+.menu ul li:last-child{
+	width: 80px;
+	height: 25px;
+	background: rgba(0,0,0,1.00);
+	text-align: center;
+	line-height: 25px;
+}
+.menu ul li:last-child a{
+	color: aliceblue;
+}
+.content{
+	width: 1920px;
+	height: 4280px;
+	background: #D4FF13;
+}
+.banner{
+	width: 1920px;
+	height: 1000px;
+	background: url("../images/Rectangle 785 copy.png");
+	position: relative;
+}
+.banner-text{
+	width: 570px;
+	height: 300px;
+/*	background: green;*/
+	position: absolute;
+	top: 360px;
+	left: 375px;
+}
+.banner h2{
+	font-size: 20px;
+	color: black;
+}
+.banner-text h1{
+	font-size: 68px;
+	color: black;
+	font-weight: 900;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.banner-text p{
+	margin-bottom: 10px;
+}
+.banner-text a{
+	padding:12.5px 40px;
+	background: red;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.concepts{
+	width: 1920px;
+	height: 1848px;
+	background: #41009E;
+	display: inline-block;
+}
+.concepts-gallery{
+	width: 1170px;
+	height: 1445px;
+	background: #D7E041;
+	display: flex;
+	flex-wrap: wrap;
+/*	flex-direction: column;*/
+}
+.box-img-1{
+	width: 370px;
+	height: 405px;
+	background: #686868;
+	margin-bottom: 50px;
+}
+.box-img{
+	width: 370px;
+	height: 1445px;
+	background: #686868;
+	margin-bottom: 50px;
+/*	margin-left: 30px;*/
+}
+.box-center{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.concepts h1{
+	font-size: 55px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 62px;
+	margin-bottom: 62px;
+}
+footer{
+	width: 1920px;
+	height: 664px;
+	background: blue;
+}
+
